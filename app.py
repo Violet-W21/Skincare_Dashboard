@@ -112,7 +112,7 @@ map_card = dbc.Card([dbc.CardBody([map_function])], id = 'map_card')
 # map list items
 list_item_map_title = dbc.ListGroupItem(html.Div([
     html.H4('Want to Find a Local Store?'),
-    html.P('click marker for more store inforamtion', className="lead", style={"font-size": "12px"}),
+    html.P('click marker for more store information', className="lead", style={"font-size": "12px"}),
     ]), id = 'list_item_map_title')
 list_item_map = dbc.ListGroupItem(map_card , id = 'list_item_map')
 list_group_map = dbc.ListGroup([list_item_map_title, list_item_map], class_name='list-group-item-info mb-4', id = 'list_group_map')
